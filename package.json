@@ -10,16 +10,16 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "nuwton"
   ],
   "homepage": "https://nuwton.org/",
-  "bugs": "https://github.com/JasonElke/Nuwton-Order-SDK/issues",
+  "bugs": "https://github.com/JasonElke/nuwton-sdk.git/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasonElke/Nuwton-Order-SDK.git"
+    "url": "https://github.com/JasonElke/nuwton-sdk.git"
   },
   "scripts": {
     "prebuild": "rm -rf ./dist",
