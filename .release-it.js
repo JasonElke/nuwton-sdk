@@ -13,3 +13,29 @@ module.exports = {
     release: true,
   },
 };
+
+
+const a = [
+  {
+    traitType: 'color',
+    count: 1,
+    values: [{
+      values_name: 'red',
+      count: 1
+    }, {
+      values_name: 'red',
+      count: 1
+    }]
+  },
+  {
+    traitType: 'color',
+    count: 1,
+    values: [{
+      values_name: 'red',
+      count: 1
+    }, {
+      values_name: 'red',
+      count: 1
+    }]
+  }
+]
