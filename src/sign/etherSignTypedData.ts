@@ -58,7 +58,7 @@ export const etherSignTypedData = async (
   const rpcData = _TypedDataEncoder.getPayload(populated.domain, types, populated.value);
 
   const wallet = await getCurrentWallet(provider);
-
+  
   if (wallet === Wallet.METAMASK || wallet === Wallet.FRAME) {
     return await provider.send("eth_signTypedData_v4", [address, JSON.stringify(rpcData)]); // MetaMask, Frame
   }

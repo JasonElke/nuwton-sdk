@@ -19,6 +19,7 @@ export const signMakerOrder = async (
 ): Promise<string> => {
   const signerAddress = await signer.getAddress();
   const { domain, type, value } = generateMakerOrderTypedData(signerAddress, chainId, order, verifyingContractAddress);
-  const signatureHash = await etherSignTypedData(signer.provider, signerAddress, domain, type, value);
+  const signatureHash =  signer._signTypedData(domain, type, value);
+  // const signatureHash = await etherSignTypedData(signer.provider, signerAddress, domain, type, value);
   return signatureHash;
 };
