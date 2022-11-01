@@ -16,10 +16,10 @@
     "nuwton"
   ],
   "homepage": "https://nuwton.org/",
-  "bugs": "https://gitlab.stisolutions.net/marketplace-platform/nuwton-sdk/-/issues",
+  "bugs": "https://github.com/JasonElke/nuwton-sdk.git",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.stisolutions.net/marketplace-platform/nuwton-sdk.git"
+    "url": "https://github.com/JasonElke/nuwton-sdk.git"
   },
   "scripts": {
     "prebuild": "rm -rf ./dist",
