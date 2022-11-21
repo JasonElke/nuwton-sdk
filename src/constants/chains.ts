@@ -23,6 +23,17 @@ export const CHAIN_INFO: { [chainId in SupportedChainId]: ChainInfo } = {
     rewardsSubgraphUrl: "https://api.thegraph.com/subgraphs/name/0xjurassicpunk/looks-distribution",
     cloudinaryUrl: "https://looksrare.mo.cloudinary.net/goerli",
   },
+  [SupportedChainId.MUMBAI]: {
+    label: "Mumbai",
+    appUrl: "https://looksrare.org",
+    explorer: "https://etherscan.io",
+    rpcUrl: `https://eth-mainnet.alchemyapi.io/v2`,
+    apiUrl: "https://graphql.looksrare.org/graphql",
+    osApiUrl: "https://api.opensea.io",
+    cdnUrl: "https://static.looksnice.org",
+    rewardsSubgraphUrl: "https://api.thegraph.com/subgraphs/name/looksrare/looks-distribution",
+    cloudinaryUrl: "https://looksrare.mo.cloudinary.net",
+  },
   [SupportedChainId.HARDHAT]: {
     label: "Hardhat",
     appUrl: "http://localhost:3000",
