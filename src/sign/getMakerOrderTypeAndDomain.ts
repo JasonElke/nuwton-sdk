@@ -20,7 +20,7 @@ export const getMakerOrderTypeAndDomain = (
   domain: TypedDataDomain;
 } => {
   const domain: TypedDataDomain = {
-    name: "NuwtonExchange",
+    name: "RivenNFT",
     version: version.toString(),
     chainId,
     verifyingContract: verifyingContract ? verifyingContract : addressesByNetwork[chainId].EXCHANGE,
